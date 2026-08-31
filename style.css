@@ -3,20 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     font-family: Arial, sans-serif;
     background: #0b0b0b;
     color: #ffffff;
     line-height: 1.6;
 }
-
-/* INTRO */
-
 #intro {
     position: fixed;
     inset: 0;
@@ -30,24 +25,19 @@ body {
 
     animation: introFade 1s ease 3s forwards;
 }
-
 .intro-content {
     text-align: center;
 }
-
 .intro-content h1 {
     font-size: 80px;
     letter-spacing: 18px;
     margin-bottom: 15px;
-
     animation: introZoom 1.2s ease;
 }
-
 .intro-content p {
     color: #999;
     font-size: 18px;
 }
-
 .loading-bar {
     width: 250px;
     height: 3px;
@@ -56,7 +46,6 @@ body {
 
     margin: 30px auto;
 }
-
 .loading-progress {
     width: 0;
     height: 100%;
@@ -64,19 +53,16 @@ body {
 
     animation: loading 3s ease forwards;
 }
-
 @keyframes introZoom {
     from {
         opacity: 0;
         transform: scale(0.7);
     }
-
     to {
         opacity: 1;
         transform: scale(1);
     }
 }
-
 @keyframes loading {
     from {
         width: 0;
@@ -93,14 +79,9 @@ body {
         visibility: hidden;
     }
 }
-
-
-/* NAVIGATION */
-
 nav {
     position: sticky;
     top: 0;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -132,10 +113,6 @@ nav h2 {
 .nav-links a:hover {
     color: white;
 }
-
-
-/* HERO */
-
 .hero {
     min-height: 90vh;
 
@@ -208,9 +185,6 @@ nav h2 {
     color: black;
 }
 
-
-/* SECTIONS */
-
 section {
     max-width: 1100px;
     margin: auto;
@@ -227,9 +201,6 @@ section > p {
     color: #aaa;
     max-width: 800px;
 }
-
-
-/* SKILLS */
 
 .skills-container {
     display: grid;
@@ -261,9 +232,6 @@ section > p {
 .skill-card p {
     color: #999;
 }
-
-
-/* PROJECTS */
 
 .projects-container {
     display: grid;
@@ -321,9 +289,6 @@ section > p {
     font-size: 13px;
 }
 
-
-/* EDUCATION */
-
 .education-card {
     border-left: 2px solid white;
 
@@ -342,10 +307,6 @@ section > p {
     font-size: 27px;
     margin: 15px 0;
 }
-
-
-/* LANGUAGES */
-
 .language-container {
     display: flex;
     gap: 20px;
@@ -358,10 +319,6 @@ section > p {
 
     border: 1px solid #292929;
 }
-
-
-/* CONTACT */
-
 #contact {
     text-align: center;
 }
@@ -396,10 +353,6 @@ section > p {
     background: white;
     color: black;
 }
-
-
-/* FOOTER */
-
 footer {
     text-align: center;
 
@@ -409,10 +362,6 @@ footer {
 
     color: #555;
 }
-
-
-/* MOBILE */
-
 @media (max-width: 700px) {
 
     nav {
